@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Pacifico&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: black;
+    color: rgba(0, 0, 0, .7)
+}
+
+header{
+    font-family: 'Pacifico', cursive;
+    background: #6a24a7;
+    color: white;
+    padding: 8px 20px;
+}
+
+.background{
+    background-color: black;
+}
+
+.container{
+    max-width: 1024px;
+    margin: auto;
+    padding: 20px;
+}
+
+.row{
+    display: grid;
+    grid-template-columns: 1fr 350px;
+    grid-gap: 10px;
+}
+
+#joke-loader{
+    border-radius: 50%;
+}
+
+
+
+#jokes-list{
+    color: white;
+    list-style: none;
+    padding: 0;
+}
+
+#status-container{
+    border-radius: 10px;
+    border: 1px solid purple;
+    padding: 20px; 
+    height: 10vh;
+}
+
+
+
+li {
+    display: flex;
+    border-radius: 10px;
+    border: 1px solid purple;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    max-height: 20vh;
+    padding: 20px;
+    align-items: center;
+}
+
